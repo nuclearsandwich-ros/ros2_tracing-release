@@ -1,0 +1,12 @@
+Source: ros-turbulent-tracetools-test
+Section: misc
+Priority: extra
+Maintainer: Christophe Bedard <bedard.christophe@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), pkg-config, python3-pytest, ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-pytest, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-launch-ros, ros-turbulent-rclcpp, ros-turbulent-std-msgs, ros-turbulent-std-srvs, ros-turbulent-tracetools, ros-turbulent-tracetools-launch, ros-turbulent-tracetools-read, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-tracetools-test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-rclcpp, ros-turbulent-std-msgs, ros-turbulent-std-srvs, ros-turbulent-ros-workspace
+Description: Testing utilities and tests for the tracetools package.
