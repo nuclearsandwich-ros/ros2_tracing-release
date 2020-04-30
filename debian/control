@@ -1,0 +1,12 @@
+Source: ros-verystable-tracetools-test
+Section: misc
+Priority: optional
+Maintainer: Christophe Bedard <bedard.christophe@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), pkg-config, python3-pytest, ros-verystable-ament-cmake, ros-verystable-ament-cmake-pytest, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-launch-ros, ros-verystable-rclcpp, ros-verystable-std-msgs, ros-verystable-std-srvs, ros-verystable-tracetools, ros-verystable-tracetools-launch, ros-verystable-tracetools-read, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-tracetools-test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-rclcpp, ros-verystable-std-msgs, ros-verystable-std-srvs, ros-verystable-ros-workspace
+Description: Testing utilities and tests for the tracetools package.
