@@ -1,0 +1,12 @@
+Source: ros-testing-tracetools-test
+Section: misc
+Priority: optional
+Maintainer: Christophe Bedard <bedard.christophe@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), pkg-config, python3-pytest, python3-pytest-cov, ros-testing-ament-cmake, ros-testing-ament-cmake-gtest, ros-testing-ament-cmake-mypy, ros-testing-ament-cmake-pytest, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-launch-ros, ros-testing-rclcpp, ros-testing-std-msgs, ros-testing-std-srvs, ros-testing-tracetools, ros-testing-tracetools-launch, ros-testing-tracetools-read, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-tracetools-test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-rclcpp, ros-testing-std-msgs, ros-testing-std-srvs, ros-testing-ros-workspace
+Description: Testing utilities and tests for the tracetools package.
