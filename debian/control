@@ -1,0 +1,12 @@
+Source: ros-testing-tracetools
+Section: misc
+Priority: optional
+Maintainer: Christophe Bedard <bedard.christophe@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), pkg-config, ros-testing-ament-cmake-ros, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-tracetools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ros-workspace
+Description: Tracing wrapper for ROS 2.
